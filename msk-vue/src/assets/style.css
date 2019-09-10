@@ -1,0 +1,38 @@
+.each__chat{
+  border-radius: 5px;
+  display: flex;
+  align-items: baseline;
+}
+.each__chat > div {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: .5rem 1rem;
+  font-size: 15px;
+}
+
+.card-content.chat__window {
+  height: 70vh;
+  overflow: scroll;
+}
+.from__me.each__chat {
+  justify-content: flex-end;
+}
+.from__me.each__chat > div{
+  -webkit-order: 2;
+  -ms-order: 2;
+  order: 2;
+}
+.from__me.each__chat > small{
+  -webkit-order: 1;
+  -ms-order: 1;
+  order: 1;
+}
+.each__chat > small{
+  padding: 0 15px;
+}
+span.badge.new:after{
+  content:''
+}
+header, main, footer {
+    padding-left: 300px;
+}

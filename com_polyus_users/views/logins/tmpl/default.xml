@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_POLYUS_USERS_TITLE_LIST_VIEW_LOGINS" option="View">
+        <message>
+                        <![CDATA[COM_POLYUS_USERS_TITLE_LIST_VIEW_LOGINS_DESC]]>
+        </message>
+	</layout>
+</metadata>
